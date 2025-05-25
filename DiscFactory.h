@@ -5,7 +5,6 @@
 
 class DiscFactory
 {
-
     public:
         DiscFactory() = default;
         static void makeRedDisc(int columnNumber, Field &field);

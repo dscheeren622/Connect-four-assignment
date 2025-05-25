@@ -17,7 +17,6 @@ void DiscFactory::makeRedDisc(int columnNumber, Field &field)
         if (disc.getPosition().m_x == columnNumber)
         {
             ++counter;
-            //if (counter == )
         }
     }
 
@@ -31,6 +30,7 @@ void DiscFactory::makeYellowDisc(int columnNumber, Field &field)
 {
     int counter = 0;
 
+    //check at which height to put the disc
     std::vector<Disc> discs = field.getDiscs();
     for (int i = 0; i < discs.size(); ++i)
     {

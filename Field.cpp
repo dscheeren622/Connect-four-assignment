@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-
 #include "Field.h"
 
 std::vector<Disc> Field::getDiscs()

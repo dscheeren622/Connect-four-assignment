@@ -3,7 +3,6 @@
 #include "ColorEnum.h"
 #include "Field.cpp"
 
-
 class Game
 {
     public:
